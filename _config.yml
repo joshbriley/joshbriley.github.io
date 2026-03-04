@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Josh Briley"
-  pronouns         : "he/his"  
+  pronouns         : #"he/his"  
   bio              : "Computational Science Student"
   location         : "Tallahassee, FL"
   employer         : "Florida State University"
