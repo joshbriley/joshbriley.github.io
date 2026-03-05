@@ -1,7 +1,6 @@
 ---
 title: "$$N$$ Bugs on a Circle"
 collection: publications
-category: conferences
 permalink: /publication/NBugsOnCircle
 excerpt: 'Something'
 date: 2025-10-30
