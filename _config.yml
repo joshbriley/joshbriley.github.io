@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "joshpic.png"
   name             : "Josh Briley"
-  pronouns         : #"he/his"  
+  pronouns         : "he/his"  
   bio              : "Computational Science Student"
-  location         : "Tallahassee, FL"
-  employer         : "Florida State University"
+  location         : "East Lansing, MI"
+  employer         : "Michigan State University"
   uri              : # URL
-  email            : "jsb22d@fsu.edu" 
+  email            : "josh.s.briley@gmail.com" 
 
   # Academic websites
   academia         : # URL
