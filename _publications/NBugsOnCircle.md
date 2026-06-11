@@ -1,7 +1,7 @@
 ---
 title: "$$N$$ Bugs on a Circle"
 collection: publications
-permalink: /publication/NBugsOnCircle
+permalink: /publications/NBugsOnCircle
 excerpt: 'Something'
 date: 2025-10-30
 venue: 'Physical Review E'
