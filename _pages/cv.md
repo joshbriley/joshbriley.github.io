@@ -16,17 +16,17 @@ Education
 
 Work experience
 ======
-* August 2024-May 2026: HPC Documentation Intern, FSU Research Computing Center
+* August 2024 - May 2026: HPC Documentation Intern, FSU Research Computing Center
   * Developed clear, user-centered technical documentation for HPC users by testing and evaluating scientific software.
   * Collaborated with RCC staff to translate complex HPC workflows and environment modules into accessible user guides and quick-start resources.
   * Benchmarked large-scale compute jobs and analyzed performance data to identify optimization patterns.
   * Gained hands-on experience with Git-based version control, Linux-based clusters, and job scheduling with Slurm.
 
-* January 2023-May 2026: Instrument Library Associate, FSU College of Music Instrument Library
+* January 2023 - May 2026: Instrument Library Associate, FSU College of Music Instrument Library
   * Managed and scheduled reservations for rehearsal and performance facilities across multiple ensembles.
   * Oversaw instrument distribution to over 300 students and faculty.
 
-* August 2024-May 2025: Undergraduate Research Opportunity Program (UROP) Leader, FSU Center for Undergraduate Research and Academic Engagemen
+* August 2024 - May 2025: Undergraduate Research Opportunity Program (UROP) Leader, FSU Center for Undergraduate Research and Academic Engagemen
   * Led a bi-weekly research seminar for 18 first-year students, teaching fundamentals of the research process, abstract writing, and poster presentation.
   * Provided individualized mentorship to students from diverse majors; facilitated discussion, skill-building, and networking opportunities.
   
