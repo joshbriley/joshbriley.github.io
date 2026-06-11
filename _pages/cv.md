@@ -22,11 +22,11 @@ Work experience
   * Benchmarked large-scale compute jobs and analyzed performance data to identify optimization patterns.
   * Gained hands-on experience with Git-based version control, Linux-based clusters, and job scheduling with Slurm.
 
-* 2023-2026: Instrument Library Associate, FSU College of Music Instrument Library
+* 2023 - 2026: Instrument Library Associate, FSU College of Music Instrument Library
   * Managed and scheduled reservations for rehearsal and performance facilities across multiple ensembles.
   * Oversaw instrument distribution to over 300 students and faculty.
 
-* 2024-2025: Undergraduate Research Opportunity Program (UROP) Leader, FSU Center for Undergraduate Research and Academic Engagemen
+* 2024 - 2025: Undergraduate Research Opportunity Program (UROP) Leader, FSU Center for Undergraduate Research and Academic Engagemen
   * Led a bi-weekly research seminar for 18 first-year students, teaching fundamentals of the research process, abstract writing, and poster presentation.
   * Provided individualized mentorship to students from diverse majors; facilitated discussion, skill-building, and networking opportunities.
   
