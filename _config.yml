@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Josh Briley"
-  pronouns         : "he/his"  
+  pronouns         : #"he/his"  
   bio              : "Computational Science PhD Student"
   location         : "East Lansing, MI"
   employer         : "Michigan State University"
