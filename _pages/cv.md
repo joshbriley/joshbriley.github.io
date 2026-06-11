@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D., Computational Mathematics, Science, and Engineering, Michigan State University, 2026-Present
-* B.S., Computational Science, B.A. in Music, Florida State University, 2022-2026 (*summa cum laude*)
+* B.S., Computational Science, B.A. Music, Florida State University, 2022-2026 (*summa cum laude*)
 
 Work experience
 ======
