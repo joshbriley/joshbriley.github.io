@@ -103,22 +103,32 @@ $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
 /* ==========================================================================
-   FORCE MONOSPACE OVERRIDE
+   COMPLETE MONOSPACE OVERRIDE FOR MINIMAL MISTAKES
    ========================================================================== */
 
-body, 
-html, 
-h1, h2, h3, h4, h5, h6, 
-p, 
-a, 
-span, 
-div, 
-li, 
-input, 
-button,
-.author__name, 
-.author__bio, 
-.nav__items,
-.masthead__menu-item a {
+/* This forces every standard HTML text block */
+body, html, p, a, span, div, li, h1, h2, h3, h4, h5, h6, input, button {
+    font-family: $monospace !important;
+}
+
+/* This specifically targets the top navigation bar and site titles */
+.masthead,
+.masthead__menu,
+.masthead__menu-item,
+.masthead__menu-item a,
+.site-title,
+.site-subtitle {
+    font-family: $monospace !important;
+}
+
+/* This targets the entire left sidebar profile (Name, bio, location, links) */
+.sidebar,
+.author__profile,
+.author__name,
+.author__bio,
+.author__urls,
+.author__urls-wrapper,
+.author__urls class,
+.author__urls a {
     font-family: $monospace !important;
 }
