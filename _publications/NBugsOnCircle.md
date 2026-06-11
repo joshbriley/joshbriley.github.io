@@ -2,7 +2,7 @@
 title: "$$N$$ Bugs on a Circle"
 collection: publications
 permalink: /publications/NBugsOnCircle
-excerpt: 'Something'
+excerpt: 'We describe and analyze a generalization of the classic “Four Bugs on a Square” cyclic pursuit problem...'
 date: 2025-10-30
 venue: 'Physical Review E'
 paperurl: 'https://journals.aps.org/pre/abstract/10.1103/kzrl-7bn8'
