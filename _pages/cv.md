@@ -11,12 +11,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D., Computational Mathematics, Science, and Engineering, Michigan State University, 2026-Present
-* B.S., Computational Science, B.A. Music, Florida State University, 2022-2026 (*summa cum laude*)
+* 2026 - Present: Ph.D., Computational Mathematics, Science, and Engineering, Michigan State University
+* 2022 - 2026: B.S., Computational Science, B.A. Music, Florida State University (*summa cum laude*)
 
 Work experience
 ======
-* 2024-2026: HPC Documentation Intern, FSU Research Computing Center
+* 2024 - 2026: HPC Documentation Intern, FSU Research Computing Center
   * Developed clear, user-centered technical documentation for HPC users by testing and evaluating scientific software.
   * Collaborated with RCC staff to translate complex HPC workflows and environment modules into accessible user guides and quick-start resources.
   * Benchmarked large-scale compute jobs and analyzed performance data to identify optimization patterns.
