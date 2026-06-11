@@ -101,4 +101,24 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-   
+
+/* ==========================================================================
+   FORCE MONOSPACE OVERRIDE
+   ========================================================================== */
+
+body, 
+html, 
+h1, h2, h3, h4, h5, h6, 
+p, 
+a, 
+span, 
+div, 
+li, 
+input, 
+button,
+.author__name, 
+.author__bio, 
+.nav__items,
+.masthead__menu-item a {
+    font-family: $monospace !important;
+}
