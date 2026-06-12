@@ -1,5 +1,5 @@
 ---
-title: "$$N$$ Bugs on a Circle"
+title: "N Bugs on a Circle"
 collection: publications
 permalink: /publications/NBugsOnCircle
 excerpt: 'We describe and analyze a generalization of the classic “Four Bugs on a Square” cyclic pursuit problem...'
