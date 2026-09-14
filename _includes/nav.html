@@ -1,0 +1,11 @@
+<header class="site-header">
+  <nav class="nav wrap">
+    <a class="nav-home" href="/">{{ site.title }}</a>
+    <ul class="nav-links">
+      {% for link in site.data.navigation.main %}
+        <li><a href="{{ link.url }}"{% if page.url == link.url %} class="active"{% endif %}>{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">&#9680;</button>
+  </nav>
+</header>
