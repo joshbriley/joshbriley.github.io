@@ -1,0 +1,13 @@
+<div class="profile">
+  {% if site.author.avatar %}
+    <img class="profile-avatar" src="/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+  {% endif %}
+  <div>
+    <h2 class="profile-name">{{ site.author.name }}</h2>
+    {% if site.author.bio %}<p class="profile-bio">{{ site.author.bio }}</p>{% endif %}
+    <p class="profile-meta muted">
+      {% if site.author.location %}{{ site.author.location }}{% endif %}
+      {% if site.author.employer %} &middot; {{ site.author.employer }}{% endif %}
+    </p>
+  </div>
+</div>
