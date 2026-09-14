@@ -39,9 +39,12 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $monospace;
-$header-font-family         : $monospace;
-$caption-font-family        : $monospace;
+/* Clean, modern sans-serif for everything except code.
+   (Previously these were all set to $monospace, which forced a
+   terminal-style font across the whole site.) */
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $sans-serif;
 
 /* ==========================================================================
    Breakpoints
@@ -102,33 +105,6 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
-/* ==========================================================================
-   COMPLETE MONOSPACE OVERRIDE FOR MINIMAL MISTAKES
-   ========================================================================== */
-
-/* This forces every standard HTML text block */
-body, html, p, a, span, div, li, h1, h2, h3, h4, h5, h6, input, button {
-    font-family: $monospace !important;
-}
-
-/* This specifically targets the top navigation bar and site titles */
-.masthead,
-.masthead__menu,
-.masthead__menu-item,
-.masthead__menu-item a,
-.site-title,
-.site-subtitle {
-    font-family: $monospace !important;
-}
-
-/* This targets the entire left sidebar profile (Name, bio, location, links) */
-.sidebar,
-.author__profile,
-.author__name,
-.author__bio,
-.author__urls,
-.author__urls-wrapper,
-.author__urls class,
-.author__urls a {
-    font-family: $monospace !important;
-}
+/* Note: code blocks (<code>, <pre>) already use $monospace on their own,
+   set separately in _sass/_syntax.scss — nothing further to do here to
+   keep code snippets in a monospace font. */
