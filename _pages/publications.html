@@ -5,10 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
-
 <p>You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
 
+<ul class="item-list">
 {% for post in site.publications reversed %}
   {% if post.id %}
     {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -16,22 +15,17 @@ author_profile: true
     {% assign title = post.title %}
   {% endif %}
 
-  <div class="list__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <h2 class="archive__item-title" itemprop="headline">
-        <a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ title }}</a>
-      </h2>
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-      <div class="archive__item-excerpt" itemprop="description">
-        {% if post.content %}
-          {{ post.content }}
-        {% elsif post.excerpt %}
-          {{ post.excerpt | markdownify }}
-        {% endif %}
-      </div>
-      {% if post.paperurl %}
-        <p><a href="{{ post.paperurl }}">Download here</a></p>
+  <li class="item">
+    <h2 class="item-title"><a href="{{ post.url }}">{{ title }}</a></h2>
+    <p class="item-meta muted">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    <div class="item-excerpt">
+      {% if post.content %}
+        {{ post.content }}
+      {% elsif post.excerpt %}
+        {{ post.excerpt | markdownify }}
       {% endif %}
-    </article>
-  </div>
+    </div>
+    {% if post.paperurl %}<p class="links"><a href="{{ post.paperurl }}">Download here</a></p>{% endif %}
+  </li>
 {% endfor %}
+</ul>
